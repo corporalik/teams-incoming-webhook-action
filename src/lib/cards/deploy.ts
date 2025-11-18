@@ -80,8 +80,8 @@ export const populateCard = ({
                 value: branch,
               },
               {
-                title: 'Commit',
-                value: `${sha.substr(0, 7)}`,
+                title: 'Commit SHA',
+                value: `${sha.substr(0, 6)}`,
               },
               {
                 title: 'Message',
