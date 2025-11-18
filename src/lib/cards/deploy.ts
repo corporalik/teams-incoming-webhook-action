@@ -83,6 +83,10 @@ export const populateCard = ({
                 title: 'Commit',
                 value: `${sha.substr(0, 7)}`,
               },
+              {
+                title: 'Message',
+                value: `${commit.data.commit.message || 'Unknown'}`,
+              },
             ],
           },
           {
